@@ -1,0 +1,251 @@
+/* Resetar os espaçamentos */
+* {
+    margin: 0; padding: 0; font-family: 'Nunito', sans-serif;
+}
+
+/* Cabeçalho */
+.top-buttons {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 20px;
+    display: flex;
+}
+
+.top-buttons div {
+    margin: 0 auto;
+}
+
+#menu {
+    padding-top: 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#menu ul li select {
+    font-size: 16px;
+}
+
+#logo img {
+    max-width: 60px;
+    max-width: 60px;
+}
+
+.spacer {
+    margin: 0 20px;
+}
+
+#categoria1 {
+    border-color: #ffffff;
+    outline: none;
+}
+
+#categoria2 {
+    border-color: #ffffff;
+    outline: none;
+}
+
+#menu ul {
+    padding:0px;
+	margin:0px;
+	float: left;
+    width: 100%;
+	list-style:none;
+	font:80% Tahoma;
+}
+
+#menu ul li { display: inline;}
+
+#divBusca {
+    padding-top: 10px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    height: 32px;
+    width: 350px;
+}
+
+#minhaConta {
+    padding-top: 10px;
+}
+
+#minhaConta ul {
+	float: left;
+    width: 100%;
+	list-style:none;
+	font:80% Tahoma;
+    font-size: 16px;
+}
+
+#minhaConta ul li { 
+    display: inline; 
+}
+
+#minhaConta ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#listaCompras a img {
+    max-width: 38px;
+    max-width: 38px;
+    padding-top: 9px;
+}
+
+/* Conteúdo da página */
+
+.slider {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #ffffff;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+#produtos {
+    padding-top: 28rem;
+    margin-left: 15rem;
+    margin-right: 10rem;
+    
+}
+
+#produtos h2 {
+    border-bottom: 4px solid rgb(240, 196, 0);
+    width: max-content;
+}
+
+#newsletter {
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#newsletter form input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#newsletter form button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(240, 196, 0);
+    color: #ffffff;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Rodapé */
+
+#alignment {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+#localizacao {
+    color: #ffffff;
+}
+
+#alignment div h2 {
+    border-bottom: 4px solid rgb(240, 196, 0);
+    width: max-content;
+}
+
+#creditos {
+    color: rgb(240, 196, 0);
+    font-size: 12px;
+}
+
+#corebizTxt {
+    color: rgb(240, 196, 0);
+    font-size: 12px;
+}
+
+#vtexTxt {
+    color: rgb(240, 196, 0);
+    font-size: 12px;
+}
+
+#devName {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: black;
+}

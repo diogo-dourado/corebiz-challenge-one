@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+        <div class="top-buttons">
+            <div id="logo">
+                <img src="assets/logo-corebiz-preto-cinza.png" alt="icon-top">
+                <h1>#gobeyond</h1>
+                <h5>quero fazer parte do futuro.</h5>
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><select name="Categoria 1" id="categoria1">
+                            <option value="0"><a href="#">Categoria 1</a></option>
+                            <option value="1"><a href="#">Categoria 3</a></option>
+                            <option value="2"><a href="#">Categoria 5</a></option>
+                        </select></li>
+                    <li><select name="Categoria 2" id="categoria2">
+                            <option value="0"><a href="#">Categoria 2</a></option>
+                            <option value="1"><a href="#">Categoria 4</a></option>
+                            <option value="2"><a href="#">Categoria 6</a></option>
+                        </select></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>                
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="O que está procurando?">
+                <a href="#"><img src="assets/lupa-icon.png" alt="Buscar"></a>
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div id="minhaConta">
+                <ul>
+                    <li><a href="#"><img src="assets/user-icon.png" id="userIcon" alt="Conta"></a></li>
+                    <li id="minhaContaTxt"><a href="#">Minha Conta</a></li>
+                </ul>                
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div id="listaCompras">
+                <a href="#"><img src="assets/carrinho-icon.png" alt="carrinho"></a>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div>
+            <ul class="slider">
+                <li>
+                    <input type="radio" id="slide1" name="slide" checked>
+                    <label for="slide1"></label>
+                    <img src="assets/Banner-1.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide2" name="slide">
+                    <label for="slide2"></label>
+                    <img src="assets/Banner-2.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide3" name="slide">
+                    <label for="slide3"></label>
+                    <img src="assets/Banner-1.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide4" name="slide">
+                    <label for="slide4"></label>
+                    <img src="assets/Banner-2.jpg" />
+                </li>
+            </ul>
+        </div>
+        <div id="produtos">
+            <h2>Mais Vendidos</h2>
+            <br>
+            <div id="itensVendidos">
+                <a href="#"><img src="assets/sapato.png" alt="cards1"></a>
+                <a href="#"><img src="assets/sapato.png" alt="cards2"></a>
+                <a href="#"><img src="assets/sapato.png" alt="cards3"></a>
+                <a href="#"><img src="assets/sapato.png" alt="cards4"></a>
+                <a href="#"><img src="assets/sapato.png" alt="cards5"></a>
+            </div>
+        </div>
+        <div id="newsletter">
+            <p>Participe de nossas news com promoções e novidades!</p>
+            <br>
+            <form id="cadastro" action="" method="POST">
+                <input type="text" id="txtName" placeholder="Digite seu nome">
+                <input type="text" id="txtEmail" placeholder="Digite seu email">
+                <button type="submit" >Eu quero!</button>
+            </form>
+        </div>
+    </section>
+    <section id="footer">
+        <div id="alignment">
+            <div id="localizacao">
+                <h2>Localização</h2>
+                <br>
+                <p>Avenida Andrômeda, 2000. Bloco 6 e 8</p>
+                <p>Alphavile SP</p>
+                <p>brasil@corebiz.ag</p>
+                <p>+55 11 3090 1039</p>
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div>
+                <a href="#"><img src="assets/contato-button.png" alt="entrarContato"></a>
+                <br>
+                <br>
+                <a href="#"><img src="assets/consultor-button.png" alt="consultorOnline"></a>
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div>
+                <p id="corebizTxt">Created by</p>
+                <img src="assets/corebiz-icon.png" alt="corebiz-icon">
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div>
+                <p id="vtexTxt">Powered by</p>
+                <img src="assets/vtex-icon.png" alt="vtex-icon">
+            </div>
+            <div>
+                <span class="spacer"></span>
+            </div>
+            <div>
+                <p id="creditos">Developed by</p>
+                <a id="devName" href="https://www.linkedin.com/in/diogo-dourado/"><span>Diogo Dourado</span></a>
+            </div>
+        </div>
+        
+    </section>
+
+
+</body>
+</html>
